@@ -75,6 +75,7 @@
               "browserTarget": "kanban-fireb:build:production"
             },
             "development": {
+              "port": 4400,
               "browserTarget": "kanban-fireb:build:development"
             }
           },
@@ -102,6 +103,16 @@
               "src/styles.scss"
             ],
             "scripts": []
+          }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "kanban-fireb:build:production",
+            "firebaseProject": "tokyo-scion-204813",
+            "firebaseHostingSite": "tokyo-scion-204813"
           }
         }
       }

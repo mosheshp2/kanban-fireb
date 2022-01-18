@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "tokyo-scion-204813": {
+      "hosting": {
+        "kanban-fireb": [
+          "tokyo-scion-204813"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "tokyo-scion-204813"
+  }
+}
